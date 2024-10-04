@@ -1,0 +1,276 @@
+body{
+    color: #fff;
+    /*background: #FF0000;*/
+    margin: 0;
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.padre{
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+    }
+    .logo{
+        flex: 1 1 auto;
+    }
+    nav{
+        display: flex;
+        gap: 50px;
+    }
+    nav a{
+        text-decoration: none;
+        transition: .5s;
+        color: #fff;
+    }
+    nav a:hover{
+        font-size: 25px;
+    }
+    .bloques{
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+        margin:60px;
+        margin-top: -38px;
+    
+    }
+    .bloques .bloque1{
+        display: flex;
+        flex-direction: column;
+    }
+    .bloques .bloque1 .text{
+        display: flex;
+    }
+    h1{
+        font-size: 90px;
+    }
+    p{
+        margin-top: -60px;
+        font-size: 20px;
+    }
+    .forma{
+        position: relative;
+        width: 200px;
+        height: 55px;
+        background: #fff;
+        display: flex;
+        justify-content: center; /* Centra el contenido horizontalmente */
+        align-items: center; /* Centra el contenido verticalmente */
+        border-radius: 35px;/* Opcional, para redondear las esquinas */
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        transition: 0.5s;
+    }
+    .forma a{
+        text-decoration: none;
+        background: none;
+        color: black;
+    }
+    .forma:hover{
+        width: 209px;
+        height: 66px;
+        background: #fff;
+    }
+    .bloques .bloque1 .redes{
+        display: flex;
+        justify-content: start;
+        gap: 30px;
+        margin-top: 40px;
+    }
+    .redes .img{
+        transition: .5s;
+    }
+    .redes .img:hover{
+        width: 60px;
+        height: 55px;
+    }
+
+header{
+    margin: 30px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.logo{
+    flex: 1 1 auto;
+}
+nav{
+    display: flex;
+    gap: 50px;
+}
+nav a{
+    text-decoration: none;
+    transition: .5s;
+}
+nav a:hover{
+    font-size: 25px;
+}
+.bloques{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    margin:60px;
+    margin-top: -38px;
+
+}
+.bloques .bloque1{
+    display: flex;
+    flex-direction: column;
+}
+.bloques .bloque1 .text{
+    display: flex;
+}
+h1{
+    font-size: 90px;
+}
+p{
+    margin-top: -60px;
+    font-size: 20px;
+}
+.forma{
+    position: relative;
+    width: 200px;
+    height: 55px;
+    background: #fff;
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    border-radius: 35px;/* Opcional, para redondear las esquinas */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+.forma a{
+    text-decoration: none;
+    background: none;
+    color: black;
+}
+.forma:hover{
+    width: 209px;
+    height: 66px;
+    background: #fff;
+}
+.bloques .bloque1 .redes{
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    margin-top: 40px;
+}
+.redes .img{
+    transition: .5s;
+}
+.redes .img:hover{
+    width: 60px;
+    height: 55px;
+}
+/* Media query para pantallas más grandes */
+@media (min-width: 1600px) {
+    h1 {
+        font-size: 120px; 
+    }
+
+    p {
+        font-size: 25px; 
+    }
+
+    .menu {
+        font-size: 24px; 
+    }
+    nav a:hover{
+        font-size: 30px;
+    }
+    .forma {
+        width: 250px;  
+        height: 60px;
+    }
+    .forma:hover{
+        width: 280px;
+        height: 70px;
+        background: #fff;
+    }
+    .bloques .bloque2 img {
+        width: 800px; 
+    }
+}
+@media (max-width: 1024px){
+    h1 {
+        font-size: 40px; 
+    }
+    p {
+        font-size: 15px; 
+        position: relative;
+        margin-top: 2px;
+    }
+    body{
+        overflow-x: hidden; /* Oculta el desbordamiento horizontal */
+        overflow-y: auto;  
+    }
+    .menu {
+        font-size: 20px;
+        display: flex;
+    }
+
+    nav a:hover{
+        font-size: 15px;
+    }
+    .forma {
+        width: 100px;  
+        height: 60px;
+    }
+    .forma:hover{
+        width: 100px;
+        height: 40px;
+        background: #fff;
+    }
+    .bloques .bloque2 img {
+        max-width: 400px;
+    }
+}
+@media (max-width: 500px){
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 10px;
+        position: relative;
+        margin-top: 1px;
+    }
+    .menu{
+        flex-direction:row-reverse;
+        gap: 100px;
+    }
+    .menu nav{
+        flex-direction: column;
+        gap: 8px;
+    }
+    .forma{
+        width: 80px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    .forma a{
+        font-size: 12px;
+    }
+    .bloques{
+        margin-left: 30px;
+    }
+    .bloques .bloque2 img{
+        width: 200px;
+    }
+    .bloques{
+        flex-direction: column;
+    }
+    .redes {
+        width: 150px;
+        height: 30px;
+    }
+}
